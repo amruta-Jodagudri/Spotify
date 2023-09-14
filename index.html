@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favorite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify-logo.webp" alt="Spotify"></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="Songlist">
+            <h1>Fresh New musics</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="SongName">Heeriye Heeriye</span>
+                    <span class="songlistplay"><span class="timestamp">03:14</span><i id="0" class="far SongItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="SongName">Heeriye Heeriye</span>
+                    <span class="songlistplay"><span class="timestamp">03:14</span><i id="1" class="far SongItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="SongName">Heeriye Heeriye</span>
+                    <span class="songlistplay"><span class="timestamp">03:14</span><i id="2" class="far SongItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="SongName">Heeriye Heeriye</span>
+                    <span class="songlistplay"><span class="timestamp">03:14</span><i id="3" class="far SongItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="SongName">Heeriye Heeriye</span>
+                    <span class="songlistplay"><span class="timestamp">03:14</span><i id="4" class="far SongItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="SongName">Heeriye Heeriye</span>
+                    <span class="songlistplay"><span class="timestamp">03:14</span><i id="5" class="far SongItemPlay fa-circle-play"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <!-- font awesome icons -->
+            <i class="fas fa-3x fa-backward-step" id="previous"></i>
+            <i class="far fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fas fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="100px" id="gif"><span id="MasterSongName">Heeriye Heeriye - Arijit Singh</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/bf868e7a20.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
